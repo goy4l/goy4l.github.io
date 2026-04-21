@@ -1,0 +1,93 @@
+body {
+    background-color: #16161e; /* Slightly darker background for the "desktop" */
+    color: #c0caf5; 
+    font-family: 'Ubuntu Mono', 'Courier New', monospace;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;      /* Centers the box vertically */
+    justify-content: center;  /* Centers the box horizontally */
+}
+
+#terminal {
+    background-color: #1a1b26; /* The Tokyo Night color for inside the terminal */
+    width: 100%;
+    /* max-width: 800px; */
+    height: 90vh;              /* Gives the box a set height so it doesn't stretch infinitely */
+    padding: 30px;
+    box-sizing: border-box;
+    overflow-y: auto;          /* Keeps the scrolling contained inside the box */
+    
+    /* The magic that makes it a "window" */
+    border-radius: 12px;       /* Smooth, rounded corners */
+    border: 1px solid #3b4261; /* A subtle border to define the edge */
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5); /* A deep drop shadow for a 3D effect */
+}
+
+.prompt {
+    color: #9ece6a; /* Tokyo Night green for the prompt */
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#input-line {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+/* This block completely removes the ugly input box */
+input {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: #c0caf5; /* Matches the text color */
+    font-family: inherit;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+pre {
+    margin: 0;
+    font-family: inherit;
+    color: #bb9af7; /* Tokyo Night purple for the ASCII art */
+}
+
+/* Styling the clickable commands to look like modern terminal links */
+.clickable {
+    color: #e0af68; /* Tokyo Night yellow/orange */
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px dashed #e0af68;
+    transition: color 0.2s, border-bottom 0.2s;
+}
+
+.clickable:hover {
+    color: #ff9e64; /* Brighter orange on hover */
+    border-bottom: 1px solid #ff9e64;
+}
+
+.clickable_ext {
+    color: #729FCF;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px dashed #729FCF;
+    transition: color 0.2s, border-bottom 0.2s;
+}
+
+.clickable_ext:hover {
+    color: #567fac;
+    border-bottom: 1px solid #567fac;
+}
+
+.response-text { 
+    margin-bottom: 15px; 
+    line-height: 1.5; 
+}
