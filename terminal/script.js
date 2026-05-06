@@ -19,7 +19,7 @@ const asciiArt = `
 const welcomeMessage = `
 <pre>${asciiArt}</pre>
 <div class="response-text">
-    Welcome to my portfolio! <br>
+    Initially the main interface of the website, I quickly realised that while cool, this is format is too cumbersome and impractical for a personal portfolio. It continues to live on here. <br>
     Type <span class="clickable" onclick="executeCommand('help')">'help'</span> to see a list of available commands, or try typing <span class="clickable" onclick="executeCommand('about')">'about'</span>.
 </div>
 `;
