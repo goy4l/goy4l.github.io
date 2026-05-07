@@ -22,9 +22,6 @@ On campus, I lead the [Shift Creator Space](https://shiftcreator.space), a premi
 I am also the former VP of Professional Development for [Tau Epsilon Kappa](https://tauepsilonkappa.com), the premier technology fraternity at UofM.
 
 ## Work
-### Tata Motors
-Embedded Software Engineering Intern  
-May 2026 - Present
 
 ### Commvault
 Software Engineering Intern  
