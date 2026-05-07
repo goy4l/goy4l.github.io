@@ -40,7 +40,8 @@ nav a:hover {
 p a {
   text-decoration: underline;
   text-decoration-style: dotted;
-  text-decoration-color: #939393;
+  text-decoration-color: #6d6d6d;
+  text-decoration-thickness: 2px;
   color: #000;
   font-weight: 500;
 }

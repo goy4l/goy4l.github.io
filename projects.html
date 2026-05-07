@@ -32,12 +32,42 @@
 
     <div class="project">
         <div>
-          <h3>autopilot nano</h3>
+          <h3>MITRE eCTF Competition</h3>
+          <div class="tagline">Jan 2026 - Apr 2026</div>
+        </div>
+        <div>
+          <p>Member of the team representing Michigan at the MITRE eCTF, an embedded systems security competition, earlier this year.
+            As part of the competition, teams are required to develop secure firmware, and attack other teams' designs to capture flags.<br>
+            Developed secure firmware for a Texas Instruments MSPM0L2228 based board, including cryptographic protections against software and hardware attacks.<br>
+            Helped create a AI orchestrated fuzzing pipeline which used the debug interface, as well as a QEMU based emulation, to fuzz designs.
+            During the attack phase, I also helped devise unique software and hardware attacks. </p>
+          <div class="tech">C / Python / Docker</div>
+        </div>
+    </div>
+
+    <div class="project">
+        <div>
+          <h3>Spin Mobility (e-scooter startup)</h3>
+          <div class="tagline">Jan 2025 - Dec 2025</div>
+        </div>
+        <div>
+          <p>Scooter safety solutions for Spin Mobility through the PerotJain TechLab at Mcity. <br>Built a unsupervised ML
+            model to identify hazardous riding zones, using road quality and IMU data. Also built a V2I priority traffic signal system
+            which provides priority to scooter riders when riding on public streets.
+          </p>
+          <div class="tech">Python</div>
+        </div>
+    </div>
+
+    <div class="project">
+        <div>
+          <h3>Autonomous Vehicle Systems & ADAS Firmware</h3>
           <div class="tagline">Aug 2025 - Dec 2025</div>
         </div>
         <div>
-          <p>Built a STM32 based ADAS system on a Pololu Zumo chassis. Implemented accurate line following, lane change and following distance
-            algorithms on bare metal.</p>
+          <p>An STM32 based ADAS system on a Pololu Zumo chassis, with accurate line following, lane change and following distance
+            algorithms on bare metal. Reverse-engineered communication protocol of PS2 controller, and devised custom communication protocol
+            to enable reliable fleet wide communication over XBEE.</p>
           </p>
           <div class="tech">C</div>
         </div>
@@ -45,8 +75,67 @@
 
     <div class="project">
         <div>
+          <h3>Reliable Transport Protocol</h3>
+          <div class="tagline">Aug 2025 - Dec 2025</div>
+        </div>
+        <div>
+          <p>A clone of TCP built on top of UDP sockets on Linux, including sliding window, congestion control and retransmission.
+            Tested in high-latency networks with >10% packet loss, packet corruption, duplication and reordering, achieving 100% data integrity.
+          </p>
+          </p>
+          <div class="tech">C++ / CMake</div>
+        </div>
+    </div>
+
+    <div class="project">
+        <div>
+          <h3>RISC Processor Prototype</h3>
+          <div class="tagline">Jan 2026 - Apr 2026</div>
+        </div>
+        <div>
+          <p>A prototype of a superscalar, out of order processor built for a custom RISC ISA. Implemented branch prediction with a branch target buffer, 
+            micro-op queue, and efficient instruction cache. Also built complete C++ toolchain, including compilor, assembler and linker, to perform complete assembly to binary
+            translation, with robust label resolution.
+          </p>
+          </p>
+          <div class="tech">SystemVerilog / Tcl / C++</div>
+        </div>
+    </div>
+
+    <div class="project">
+        <div>
+          <h3>Multi-processor Thread Library</h3>
+          <div class="tagline">Jan 2026 - Apr 2026</div>
+        </div>
+        <div>
+          <p>A kernel-level thread library supporting multiple CPUs, handling thread lifecycles,
+            timer and asynchronous interrupts, and FIFO thread scheduling. Added support for synchronization primitives
+            (mutex, conditional variables), with atomic guards ensuring mutual exclusion in multi-core environments. 
+
+          </p>
+          </p>
+          <div class="tech">C++</div>
+        </div>
+    </div>
+
+    <div class="project">
+        <div>
+          <h3>AI Lawyer</h3>
+          <div class="tagline">September 2024</div>
+        </div>
+        <div>
+          <p>A virtual lawyer using AI, implementing RAG grounded in 22M words of the US Code. Created a virtual avatar to talk to clients, providing a more comforting
+            environment.
+          </p>
+          </p>
+          <div class="tech">Python</div>
+        </div>
+    </div>
+    
+    <div class="project">
+        <div>
           <h3>More Projects Coming Soon</h3>
-          <div class="tagline">coming soon</div>
+          <div class="tagline"></div>
         </div>
         <div>
           <p></p>
